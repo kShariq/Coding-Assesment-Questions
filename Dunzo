@@ -1,0 +1,4 @@
+SELECT student.name, student.id
+FROM student
+ORDER BY name and ID DESC limit 0,3
+GROUP BY name and ID;
