@@ -1,0 +1,9 @@
+def findTotalDistance(n,numbers):
+total = 0
+for i in range(n-1):
+total+= abs(numbers[i]-numbers[i+1])
+return total
+
+n = int(input())
+numbers = list(map(int, input().split()))
+print(findTotalDistance(n,numbers))
